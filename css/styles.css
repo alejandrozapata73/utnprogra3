@@ -1,0 +1,108 @@
+h1:hover{
+    color: red;
+    cursor: pointer 
+}
+
+li{
+    width: 12%;
+    float:left;
+    margin: 2px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+body{
+    background-color: azure;
+
+    background-image: url("https://imgs.search.brave.com/3YbU_AZ2F6bxvimHaF5wkSW8Lc7CUWLYPKLb961KBbY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc0/NjIxMzY3NS9lcy9m/b3RvL2N1Ym8tY29u/ZWN0YWRvLWFic3Ry/YWN0by1xdWUtZXhw/bG90YS1jb24tcGFy/dCVDMyVBRGN1bGFz/LWZvbmRvLWRlLXRl/Y25vbG9nJUMzJUFE/YS1kZS1pbnRlbGln/ZW5jaWEud2VicD9i/PTEmcz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Q2lVd0I0aWh0bVd4/aWNWckxjV0xHUnky/LVZ0NXdrRTltZEVa/Y3lGRC01Yz0");
+
+    background-size: cover;
+
+    .titulo-header{
+        font-size: 36px;
+        font-family: "Monserrat", Roboto;
+    }
+    
+
+    
+    .lista-nav{
+        list-style: none;
+        li{
+            float: left;
+            width: 12%;
+            font-size: 12px;
+            margin: 2px;
+            text-align: center;
+            background-color: gray;
+        }
+    }
+
+    main{
+        float: left;
+        
+        .padre{
+        background-color: cornflowerblue;
+        width: 300px;
+        height: 300px;
+        margin:100px 800px
+    }
+    .hijo1{
+        background-color: brown;
+        height: 100px;
+        width: 100px;
+        float:left;
+        border:4px solid
+    }
+    .hijo2{
+        background-color: brown;
+        height: 100px;
+        width: 100px;
+        float:left;
+        border:4px solid gray;
+        clear: both;
+    }
+    }
+
+    .seccion{
+        background-color: #e6e7e8;
+        padding-left: 20%;
+        padding-right: 20%;
+        width: 60;
+    }
+    .elementoInterno{
+        width: 32%;
+        float:left;
+        height: 300px;
+        background-color: limegreen;
+        margin-bottom: 20px;
+    }
+
+    .servicio{
+        width: 30%;
+        height: 125px;
+        float:left;
+        background-color: deepskyblue;
+        p{
+            width: 100%;
+            margin-top  : 45%;
+            float:inherit;
+            text-align: center;
+        }
+    }
+
+
+    .servicio:hover{
+        cursor: pointer;
+    }
+
+    .servicios{
+        width: 100%;
+        list-style: none;
+        margin:0;
+        padding-left: 3%;
+        padding-top: 20px;
+    }
+
+    
+}
